@@ -1,2 +1,2 @@
 # ☕ Exercícios de Java
-Exercícios do **Beecrowd** feitos por mim em **java**.
+Exercícios do **Beecrowd** feitos por mim em **Java**.
