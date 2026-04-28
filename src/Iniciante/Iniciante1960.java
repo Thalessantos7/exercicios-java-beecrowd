@@ -20,6 +20,7 @@ public class Iniciante1960 {
         }
 
         System.out.println(resultado.toString());
+
         sc.close();
     }
 }

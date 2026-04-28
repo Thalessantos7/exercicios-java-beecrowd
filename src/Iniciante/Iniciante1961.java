@@ -1,0 +1,33 @@
+package Iniciante;
+
+import java.util.Scanner;
+
+public class Iniciante1961 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        int P = sc.nextInt();
+        int N = sc.nextInt();
+
+        int anterior = sc.nextInt();
+        boolean venceu = true;
+
+        for (int i = 1; i < N; i++) {
+            int atual = sc.nextInt();
+
+            if (Math.abs(atual - anterior) > P) {
+                venceu = false;
+            }
+
+            anterior = atual;
+        }
+
+        if (venceu) {
+            System.out.println("YOU WIN");
+        } else {
+            System.out.println("GAME OVER");
+        }
+
+        sc.close();
+    }
+}
