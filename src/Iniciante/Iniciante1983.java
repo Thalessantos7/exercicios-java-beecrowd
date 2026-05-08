@@ -38,6 +38,8 @@ public class Iniciante1983 {
 
         }
 
+        sc.close();
+
     }
 
 }
